@@ -212,6 +212,10 @@ app.viewer.entities.values
 
 http://gitee.com/z5657/map/issues/I64WBS
 
+## 楼层不显示
+
+把中控的modelMeta改成现场的modelMeta文件，该文件在GISModel根目录
+
 # 应急管理
 
 ## 部门数据删除处理
@@ -328,6 +332,17 @@ SELECT * from AM_CLASSIFIES
    ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/78.png)
 
    ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/79.png)
+
+## 报警点来源修改
+``
+```roomsql
+select id,ALARM_NAME ,CLASSIFY_CODE ,APPCODE  from AM_POINTS ap where valid = 1;
+
+SELECT id,APPNAME ,APPCODE  from AM_ORIGINS ao where valid = 1;
+
+SELECT id,CNAME ,CCODE ,APP_CODE ,MSG_CODE,VALID  from AM_CLASSIFIES ac where valid = 1 ;
+```
+
 
 # 软件下载
 
