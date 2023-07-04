@@ -201,6 +201,21 @@ ALTER TABLE public."Common_Polygon" ADD heading double precision NULL;
 ALTER TABLE public."Common_Polygon" ADD azimuth double precision NULL;
 ```
 
+## 删除业务的generate业务包
+
+删除应急指挥的generate业务包
+
+linux: 
+
+```shell
+find /volumes/nfs/ -maxdepth 1 -type d -name "default-supplant-pvc-pvc-*" | awk '{print "rm -r \"" $0"/generate/SESECD_1.0.0" "\""}' | sh
+```
+windows:
+
+```shell
+rd /s /q %ADP_HOME%\bap-server\bap-workspace\generate\SESECD_1.0.0
+```
+
 # 数据库问题
 
 ## unable to extend lob segment HZSHIIP.SYS_LOB0000243299C00004$$ by 1024 in tablespace HZSHIIP
