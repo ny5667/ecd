@@ -182,6 +182,25 @@ HAVING COUNT(*) > 1
 
 https://gitee.com/z5657/map/issues/I683QD
 
+## 空间分析服务，Common_Point 的 "roll"字段不存在
+
+```roomsql
+ALTER TABLE public."Common_Point" ADD roll double precision NULL;
+ALTER TABLE public."Common_Point" ADD pitch double precision NULL;
+ALTER TABLE public."Common_Point" ADD heading double precision NULL;
+ALTER TABLE public."Common_Point" ADD azimuth double precision NULL;
+
+ALTER TABLE public."Common_Line" ADD roll double precision NULL;
+ALTER TABLE public."Common_Line" ADD pitch double precision NULL;
+ALTER TABLE public."Common_Line" ADD heading double precision NULL;
+ALTER TABLE public."Common_Line" ADD azimuth double precision NULL;
+
+ALTER TABLE public."Common_Polygon" ADD roll double precision NULL;
+ALTER TABLE public."Common_Polygon" ADD pitch double precision NULL;
+ALTER TABLE public."Common_Polygon" ADD heading double precision NULL;
+ALTER TABLE public."Common_Polygon" ADD azimuth double precision NULL;
+```
+
 # 数据库问题
 
 ## unable to extend lob segment HZSHIIP.SYS_LOB0000243299C00004$$ by 1024 in tablespace HZSHIIP
