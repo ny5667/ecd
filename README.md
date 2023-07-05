@@ -201,6 +201,22 @@ ALTER TABLE public."Common_Polygon" ADD heading double precision NULL;
 ALTER TABLE public."Common_Polygon" ADD azimuth double precision NULL;
 ```
 
+# 空间数据库加字段
+
+```roomsql
+ALTER TABLE public."Common_Point" ADD glbsrc varchar(100) NULL;
+ALTER TABLE public."Common_Point" ADD "scale" int4 NULL;
+ALTER TABLE public."Common_Point" ADD busdata text NULL;
+
+ALTER TABLE public."Common_Line" ADD glbsrc varchar(100) NULL;
+ALTER TABLE public."Common_Line" ADD "scale" int4 NULL;
+ALTER TABLE public."Common_Line" ADD busdata text NULL;
+
+ALTER TABLE public."Common_Polygon" ADD glbsrc varchar(100) NULL;
+ALTER TABLE public."Common_Polygon" ADD "scale" int4 NULL;
+ALTER TABLE public."Common_Polygon" ADD busdata text NULL;
+```
+
 ## 删除业务的generate业务包
 
 删除应急指挥的generate业务包
