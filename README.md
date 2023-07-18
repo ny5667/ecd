@@ -301,6 +301,17 @@ http://gitee.com/z5657/map/issues/I64WBS
 
 ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/微信图片_20230418143456.png)
 
+# 应急指挥
+
+接警列表空白
+
+在系统编码中增加图层
+
+alertRecordLayer
+
+warningLayer
+
+
 # 安全模块常见问题——安全监控
 
 ## 实时报警数据查询
