@@ -249,6 +249,10 @@ rd /s /q %ADP_HOME%\bap-server\bap-workspace\generate\SESWssER_1.0.0
 
 ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/微信图片_20230531153609.png)
 
+## saas数据库直接用dbeaver直接连
+
+连接saas环境：一种是可以用`kubectl get po`方式查询到，到再进入容器；另一种方式是直接用dbeaver直接连接；
+
 # 平台问题
 
 ## 服务启动报错
