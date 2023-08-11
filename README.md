@@ -311,6 +311,8 @@ http://gitee.com/z5657/map/issues/I64WBS
 
 在系统编码中增加图层
 
+vxAlertRecordLayer
+
 alertRecordLayer
 
 warningLayer
