@@ -359,57 +359,7 @@ SELECT * from AM_CLASSIFIES
 
 ## 危险源、物联设备如何在地图上实现报警（弹框、光晕闪烁）
 
-<font color='red'>地图上产生报警效果依赖于websocket推送，通过应用消息展示。因此请保证websocket服务正常运行，APP管理（SupOS平台）处已安装应用消息</font>
-
-![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/64.png)
-
-![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/65.png)
-
-![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/66.png)
-
-想要在地图上显示出报警，需要三个服务协同配合才可以实现，总流程如下图：
-
-![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/67.png)
-
-1. 报警点触发
-
-    - 编辑报警点时，基本信息中的所属分类字段需要选择安全监控中对应的类别（如危险源类、毒气类）；通知方式中的提醒人决定哪些人员可以看到报警效果
-
-      ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/68.png)
-
-      ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/69.png)
-
-    - 通过修改报警策略等方式实现报警状态的改变（从正常运行到正在报警）
-
-      ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/70.png)
-
-      ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/71.png)
-
-2. 危险源/物联设备关联报警点（以危险源为例）
-
-   ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/72.png)
-
-   ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/73.png)
-
-3. 消息中心接收消息后推送给安全监控，实现地图上的报警效果
-
-    - 保证【消息管理】-【任务管理】-【内容模板】/【主题设置】中已有配置模板（一般为初始化进系统，但可能未初始化成功）
-
-      ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/74.png)
-
-      ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/75.png)
-
-      ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/76.png)
-
-      ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/77.png)
-
-    - 若现场消息管理中无相关内容和主题模板，请私聊葛葭或陈乐麒
-
-4. 任务管理-接收情况中存在发送成功的报警消息，可在地图上看到弹窗及光圈闪烁
-
-   ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/78.png)
-
-   ![](https://cdn.jsdelivr.net/gh/NY5667/CDN/images/79.png)
+[安全模块常见问题——积分管理、安全监控.pdf](https://cdn.jsdelivr.net/gh/NY5667/CDN/docs/安全模块常见问题——积分管理、安全监控.pdf)
 
 ## 报警点来源修改
 ``
