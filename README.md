@@ -307,16 +307,9 @@ http://gitee.com/z5657/map/issues/I64WBS
 
 # 应急指挥
 
-接警列表空白
+## 接警列表空白
 
-在系统编码中增加图层
-
-vxAlertRecordLayer
-
-alertRecordLayer
-
-warningLayer
-
+在系统编码中增加图层`vxAlertRecordLayer`、`alertRecordLayer`、`warningLayer`，并重启启动应急指挥模块
 
 # 安全模块常见问题——安全监控
 
@@ -381,10 +374,6 @@ SELECT id,CNAME ,CCODE ,APP_CODE ,MSG_CODE,VALID  from AM_CLASSIFIES ac where va
 [http://zaq1.cloud/software/postgis-bundle-pg10x64-setup-2.5.0-1.exe](http://zaq1.cloud/software/postgis-bundle-pg10x64-setup-2.5.0-1.exe)
 
 ## 地图相关
-
-[http://zaq1.cloud/document/地图语句脚本执行说明.pdf](http://zaq1.cloud/document/地图语句脚本执行说明.pdf)
-
-[http://zaq1.cloud/document/墨迹接口文档.zip](http://zaq1.cloud/document/墨迹接口文档.zip)
 
 融合环境部署手册：
 
