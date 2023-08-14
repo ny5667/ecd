@@ -369,20 +369,22 @@ SELECT id,CNAME ,CCODE ,APP_CODE ,MSG_CODE,VALID  from AM_CLASSIFIES ac where va
 
 ## 地图安装软件
 
-[http://zaq1.cloud/software/postgresql-10.4-1-windows-x64.exe](http://zaq1.cloud/software/postgresql-10.4-1-windows-x64.exe)
+[postgresql-10.4-1-windows-x64.exe](https://share.eu.internxt.com/sh/file/58527d8eff25006276c4/c319fedc80def34c403713e2811d71d3883d6ddade7403ec458876ecb7660228)
 
-[http://zaq1.cloud/software/postgis-bundle-pg10x64-setup-2.5.0-1.exe](http://zaq1.cloud/software/postgis-bundle-pg10x64-setup-2.5.0-1.exe)
+[postgis-bundle-pg10x64-setup-2.5.0-1.exe](https://share.eu.internxt.com/sh/file/17dee5fcfb16721f0a62/81c86c915d86e274de81be3f7084af4c605c23af7e1fb249d7d3d95a69d11bf6)
 
 ## 地图相关
 
-融合环境部署手册：
+saas：
 
-[http://zaq1.cloud/document/Map-Install-Linux.pdf](http://zaq1.cloud/document/Map-Install-Linux.pdf)
+[saas环境地图部署文档.pdf](https://cdn.jsdelivr.net/gh/NY5667/CDN/docs/saas环境地图部署文档.pdf)
 
-SAAS环境部署手册
+[空间数据库初始化.pdf](https://cdn.jsdelivr.net/gh/NY5667/CDN/docs/空间数据库初始化.pdf)
 
-[http://zaq1.cloud/document/Map-Install-Saas.pdf](http://zaq1.cloud/document/Map-Install-Saas.pdf)
+融合：
+
+[融合环境部署手册V6.1.2.26_最新版.pdf](https://cdn.jsdelivr.net/gh/NY5667/CDN/docs/融合环境部署手册V6.1.2.26_最新版.pdf)
 
 # 数据库驱动
 
-http://zaq1.cloud/download/dbeaver-jdbc.zip
+[dbeaver-jdbc.zip](https://share.eu.internxt.com/sh/file/0c3f2de630da83c5c15c/5dd7a4fb7de29b10d8b9f964ba2b196ec2accccb5beacef1a7d8c4a46aaf8e58)
