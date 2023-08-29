@@ -366,6 +366,14 @@ SELECT id,APPNAME ,APPCODE  from AM_ORIGINS ao where valid = 1;
 SELECT id,CNAME ,CCODE ,APP_CODE ,MSG_CODE,VALID  from AM_CLASSIFIES ac where valid = 1 ;
 ```
 
+## 危险源保存报错
+
+报错信息：
+
+{"code":500,"data":null,"message":"JDBC exception on Hibernate data access: SQLException for SQL [n/a]; SQL state [HY004]; error code [6016]; Could not read entity state from ResultSet : EntityKey[com.supcon.orchid.SESWssHSP.entities.SESWssHSPHazardInfo#3695888065583856]; nested exception is org.hibernate.exception.GenericJDBCException: Could not read entity state from ResultSet : EntityKey[com.supcon.orchid.SESWssHSP.entities.SESWssHSPHazardInfo#3695888065583856]"}
+
+
+达梦数据库要调整`DEPARTMENT_DESC`这个字段类型为`CLOB`
 
 # 软件下载
 
