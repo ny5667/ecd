@@ -354,6 +354,8 @@ SELECT * from AM_CLASSIFIES
 
 [安全模块常见问题——积分管理、安全监控.pdf](https://cdn.jsdelivr.net/gh/NY5667/CDN/docs/安全模块常见问题——积分管理、安全监控.pdf)
 
+windows电脑要是kafka日志过大，要把日志删掉消息中心才发得出消息来。
+
 ## 报警点来源修改
 ``
 ```roomsql
