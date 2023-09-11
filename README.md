@@ -226,6 +226,11 @@ linux:
 ```shell
 find /volumes/nfs/ -maxdepth 1 -type d -name "default-supplant-pvc-pvc-*" | awk '{print "rm -r \"" $0"/generate/SESECD_1.0.0" "\""}' | sh
 ```
+
+```shell
+find /nfs/ -maxdepth 1 -type d -name "default-supplant-pvc-pvc-*" | awk '{print "rm -r \"" $0"/generate/SESECD_1.0.0" "\""}' | sh
+```
+
 windows:
 
 ```shell
