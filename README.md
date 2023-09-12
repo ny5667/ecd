@@ -380,6 +380,8 @@ SELECT id,CNAME ,CCODE ,APP_CODE ,MSG_CODE,VALID  from AM_CLASSIFIES ac where va
 
 达梦数据库要调整`DEPARTMENT_DESC`这个字段类型为`CLOB`
 
+SQLServer数据库要调整`DEPARTMENT_DESC`这个字段类型为`text`
+
 # 软件下载
 
 ## 地图安装软件
