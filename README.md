@@ -265,7 +265,7 @@ No row with the given identifier exists: [com.supcon.orchid.foundation.entities.
 页面上新增人员信息，并在数据库中调整id为删除人员id：2852152859084976
 
 ```roomsql
-SELECT * FROM SUPOS.ORG_PERSON
+SELECT * FROM ORG_PERSON
 WHERE name LIKE '测试1%'
 ;
 ```
