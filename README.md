@@ -258,6 +258,18 @@ rd /s /q %ADP_HOME%\bap-server\bap-workspace\generate\SESWssER_1.0.0
 
 连接saas环境：一种是可以用`kubectl get po`方式查询到，到再进入容器；另一种方式是直接用dbeaver直接连接；
 
+## 删除人员数据问题
+
+No row with the given identifier exists: [com.supcon.orchid.foundation.entities.Staff#2852152859084976]; nested exception is javax.persistence.EntityNotFoundException: No row with the given identifier exists: [com.supcon.orchid.foundation.entities.Staff#2852152859084976
+
+页面上新增人员信息，并在数据库中调整id为删除人员id：2852152859084976
+
+```roomsql
+SELECT * FROM SUPOS.ORG_PERSON
+WHERE name LIKE '测试1%'
+;
+```
+
 # 平台问题
 
 ## 服务启动报错
